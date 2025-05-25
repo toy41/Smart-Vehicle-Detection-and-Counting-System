@@ -29,16 +29,16 @@ class VehicleDetector:
     def _check_files(self):
         print("📁 Aktif dizin:", os.getcwd())
         if not os.path.exists(self.model_path):
-            print(f"❌ Model dosyası bulunamadı: {self.model_path}")
+            print(f"❌ Model dosyasi bulunamadi: {self.model_path}")
             exit()
         if not os.path.exists(self.video_path):
-            print(f"❌ Video dosyası bulunamadı: {self.video_path}")
+            print(f"❌ Video dosyasi bulunamadi: {self.video_path}")
             exit()
 
     def detect(self):
         cap = cv2.VideoCapture(self.video_path)
         if not cap.isOpened():
-            print("❌ Video açılamadı.")
+            print("❌ Video açilamadi.")
             return
 
         frame_number = 0
@@ -84,7 +84,7 @@ class VehicleDetector:
             cv2.imshow("Araç Tespiti (YOLOv8 + SORT)", annotated_frame)
 
             if cv2.waitKey(1) & 0xFF == ord("q"):
-                print("🚪 Kullanıcı çıkış yaptı.")
+                print("🚪 Kullanici çikiş yapti.")
                 break
 
         cap.release()
