@@ -76,5 +76,10 @@ python main.py
   mertaltundal
 </a>
 
+<a href="https://github.com/mertaltundal" target="_blank">
+  <img src="https://avatars.githubusercontent.com/VALDEARD?v=4" width="50px" alt="VALDEARD"/>
+  VALDEARD
+</a>
+
 
 
