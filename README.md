@@ -76,5 +76,5 @@ python main.py
   mertaltundal
 </a>
 
-© 2025 Advanced Python Course Project
+
 
