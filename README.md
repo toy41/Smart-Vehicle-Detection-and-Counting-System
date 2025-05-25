@@ -66,5 +66,15 @@ python main.py
 
 ---
 
+<a href="https://github.com/cihangirknt" target="_blank">
+  <img src="https://avatars.githubusercontent.com/cihangirknt?v=4" width="50px" alt="cihangirknt"/>
+  cihangirknt
+</a>
+
+<a href="https://github.com/mertaltundal" target="_blank">
+  <img src="https://avatars.githubusercontent.com/mertaltundal?v=4" width="50px" alt="mertaltundal"/>
+  mertaltundal
+</a>
+
 © 2025 Advanced Python Course Project
 
