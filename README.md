@@ -1,9 +1,8 @@
-# Smart-Vehicle-Detection-and-Counting-System
 # Vehicle Detection and Counting with YOLOv8 and SORT
 
 A Python-based application that detects and counts vehicles in a video using the YOLOv8 object detection model and SORT tracking algorithm.
 
-## 🚘 Features
+##  Features
 
 - Vehicle detection using YOLOv8
 - Object tracking with SORT algorithm
@@ -12,12 +11,12 @@ A Python-based application that detects and counts vehicles in a video using the
 - CSV logging of detections
 - PDF report generation
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
 - Python 3.8+
-- [YOLOv8 weights](https://github.com/ultralytics/ultralytics)
+- YOLOv8
 - OpenCV
 - Ultralytics
 - reportlab
@@ -41,7 +40,7 @@ pip install -r requirements.txt
    - `yolov8n.pt` (YOLOv8 model)
    - `trafik.mp4` (video file)
 
-## ▶️ Usage
+##  Usage
 
 Run the application:
 
@@ -52,7 +51,7 @@ python main.py
 - Press `q` to stop the camera feed manually.
 - Results will be saved to `output.csv` and `report.pdf`.
 
-## 🧠 Technology Stack
+## Technology Stack
 
 - Python
 - OpenCV
@@ -60,7 +59,7 @@ python main.py
 - SORT Tracking
 - ReportLab (PDF)
 
-## 📝 Output Files
+## Output Files
 
 - `output.csv`: Logs detected vehicle classes, frame number, and tracking IDs
 - `report.pdf`: A summary PDF report generated from the CSV file
