@@ -2,3 +2,7 @@ ultralytics
 opencv-python
 numpy
 reportlab
+sort-tracker
+pandas
+matplotlib
+fpdf
